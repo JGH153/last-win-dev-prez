@@ -116,7 +116,6 @@
             <h1>Setup <span class="windows">Win 11</span></h1>
             <h2 class="fragment">Hyper V</h2>
             <h2 class="fragment">WSL 2</h2>
-            <h2 class="fragment">Gui apps</h2>
             <h2 class="fragment">Ubuntu, Arch or Fedora</h2>
           </section>
           <section>
@@ -124,7 +123,7 @@
           </section>
           <section>
             <h2><span class="windows">Windows</span> terminal</h2>
-            <video data-autoplay loop src="video/terminal.mp4"></video>
+            <video loop src="video/terminal.mp4"></video>
           </section>
           <section>
             <h2>Winget 📦</h2>
@@ -136,10 +135,7 @@
           <section>
             <h2 class="nodejs">Node.js</h2>
             <h2 class="fragment">fnm</h2>
-            <pre><code data-trim data-noescape>
-              winget install Schniz.fnm
-              fnm install
-            </code></pre>
+            <img src="img/fnm.png" class="fragment" />
 
             <h2 class="fragment git">Git</h2>
             <h2 class="fragment"><span class="git">Git</span> bash as npm default</h2>
@@ -150,12 +146,12 @@
             <h2 class="fragment">OpenSSH Client</h2>
           </section>
           <section>
-            <h2 class="fragment">File <span class="windows">explorer</span> + <span class="git">Git</span></h2>
+            <h2 class="">File <span class="windows">explorer</span> + <span class="git">Git</span></h2>
             <img class="fragment" src="img/exporer-git.png" />
           </section>
           <section>
             <h2>Explorer <span class="windows">tabs</span></h2>
-            <video data-autoplay loop src="video/exporer-tabs.mp4"></video>
+            <video loop src="video/exporer-tabs.mp4"></video>
           </section>
           <section>
             <h1 class="">Dev Drive 💾</h1>
@@ -166,8 +162,7 @@
           </section>
           <section>
             <h2>Edit</h2>
-            <video data-autoplay loop src="video/edit.mp4"></video>
-            <!-- <img class="fragment" src="img/edit.png" /> -->
+            <video loop src="video/edit.mp4"></video>
           </section>
         </section>
 
@@ -214,11 +209,11 @@
           </section>
           <section>
             <h2>Notepad upgrade</h2>
-            <video data-autoplay loop src="video/notepad.mp4"></video>
+            <video loop src="video/notepad.mp4"></video>
           </section>
           <section>
             <h2>Task manager upgrade</h2>
-            <video data-autoplay loop src="video/taskmanager.mp4"></video>
+            <video loop src="video/taskmanager.mp4"></video>
           </section>
           <section>
             <!-- DELETE? -->
@@ -236,6 +231,7 @@
             <h2 class="fragment">dism /online /cleanup-image /scanhealth</h2>
             <h2 class="fragment">dism /online /cleanup-image /restorehealth</h2>
             <h2 class="fragment">Reinstall just Windows</h2>
+            <img class="fragment" src="img/recover-quic.png" />
           </section>
         </section>
         <section>
@@ -258,6 +254,7 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
+        autoPlayMedia: true,
         // view: "scroll",
         // scrollProgress: true,
 
