@@ -281,7 +281,13 @@
 }
 
 .windows {
-  color: #0084dc !important;
+  color: rgb(0, 132, 220) !important;
+  color: rgb(54, 154, 243) !important;
+
+  background: linear-gradient(90deg, rgb(0, 132, 220) 0%, rgb(54, 154, 243) 100% /* rgb(255, 176, 46) 10% */);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .mac {

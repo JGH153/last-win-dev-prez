@@ -64,15 +64,6 @@
         font-size: 2em;
       }
 
-      .fire {
-        color: #e9083e;
-
-        background: linear-gradient(90deg, rgb(255, 103, 35) 0%, rgb(233, 8, 62) 100% /* rgb(255, 176, 46) 10% */);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-
       .fire-success {
         color: #28a745;
 
@@ -87,74 +78,81 @@
     <div class="reveal">
       <div class="slides">
         <section>
+          <section data-background="img/lastdev3.png" data-background-size="contain"></section>
           <section>
-            <h1>The last win 11 dev</h1>
-          </section>
-          <section>
-            <h1>Have tried mac twice</h1>
-            <h2>Focus on Windows</h2>
-            <h2>What it has to offer in 2025</h2>
-            <h2>An exciting overview</h2>
+            <h1>Have tried Mac twice 🍎</h1>
+            <h2 class="fragment">Give <span class="windows">Win 11</span> a final chance</h2>
+            <h2 class="fragment">Really <span class="windows">surprised!</span></h2>
+            <h2 class="fragment">Focus on <span class="windows">Windows</span></h2>
           </section>
           <section>
             <h1>Caveats</h1>
-            <h2>No admin = no fun</h2>
-            <h2>Do we really care?</h2>
-            <h2>
-              No M5 ARM, yet
-              <!-- TODO compare to new snapdragon? -->
-            </h2>
+            <h2 class="fragment">No admin = <span class="error">no fun</span></h2>
+            <h2 class="fragment">MS push for AI is <span class="error">annoying</span></h2>
+            <h2 class="fragment">Gaming is more fun on <span class="windows">Windows</span></h2>
+            <h2 class="fragment">Some really old <span class="error">outdated</span> parts</h2>
           </section>
           <section>
-            <h1>Caveats 2</h1>
-            <h2>Gaming is more fun on windows</h2>
-            <h2>MS push for AI is annoying</h2>
-            <h2>But sometimes fun</h2>
-            <h2>Backward compatibility is a double-edged sword</h2>
+            <h2>No M5 ARM<span class="fragment">, yet</span></h2>
+            <img class="fragment" src="img/snapdragon.png" />
+          </section>
+          <section>
+            <h1>Love to <span class="error">hate</span> <span class="windows">Windows</span></h1>
+            <h2 class="fragment">SSD <span class="error">issues</span></h2>
+            <h2 class="fragment">localhost <span class="error">issues</span></h2>
           </section>
         </section>
         <section>
           <section>
-            <h1>New and fun</h1>
-            <h2>WSL 2</h2>
-            <h2>Linux GUI</h2>
-            <h2>Winget</h2>
-            <h2>Powertoys</h2>
-            <h2>Sandbox</h2>
-            <h2>Sudo</h2>
+            <h1>New and <span class="windows">fun</span></h1>
+            <h2 class="fragment">WSL 2 🖥️ + GUI</h2>
+            <h2 class="fragment">Winget 📦</h2>
+            <h2 class="fragment">Powertoys 🔫</h2>
+            <h2 class="fragment">Sandbox 💻</h2>
+            <h2 class="fragment">Sudo 🫡</h2>
           </section>
           <section>
-            <h1>Setup Win 11</h1>
-            <h2>Hyper V</h2>
-            <h2>WSL 2</h2>
-            <h2>Gui apps</h2>
-            <h2>Ubuntu, Arch or Fedora</h2>
-            <h2>Rancher Desktop</h2>
+            <h1>Setup <span class="windows">Win 11</span></h1>
+            <h2 class="fragment">Hyper V</h2>
+            <h2 class="fragment">WSL 2</h2>
+            <h2 class="fragment">Gui apps</h2>
+            <h2 class="fragment">Ubuntu, Arch or Fedora</h2>
+            <h2 class="fragment">Rancher Desktop</h2>
           </section>
           <section>
             <h2>Windows terminal</h2>
-            <!-- Trailer -->
+            <video data-autoplay loop src="video/terminal.mp4"></video>
           </section>
           <section>
-            <h2>Winget</h2>
-            <h2>Most apps</h2>
+            <h2>Winget 📦</h2>
+            <h2 class="fragment"><span class="windows">Most</span> apps</h2>
+            <img class="fragment" src="img/winget.png" />
             <!-- Screenshot of  -->
+            <h2 class="fragment">Powershell 7</h2>
           </section>
           <section>
-            <h2>Powershell 7</h2>
-            <h2>Node.js</h2>
-            <h2>fnm</h2>
-            <h2>Git</h2>
-            <h2>Git bash as npm default</h2>
+            <h2 class="nodejs">Node.js</h2>
+            <h2 class="fragment">fnm</h2>
+            <pre><code data-trim data-noescape>
+              winget install Schniz.fnm
+              fnm install
+            </code></pre>
+
+            <h2 class="fragment git">Git</h2>
+            <h2 class="fragment"><span class="git">Git</span> bash as npm default</h2>
           </section>
           <section>
-            <h2>Advanced win settings</h2>
-            <h2>Sudo</h2>
-            <h2>Dev Drive</h2>
-            <h2>File explorer</h2>
+            <h1>Advanced <span class="windows">Win 11</span> settings</h1>
+            <h2 class="fragment">Sudo</h2>
+            <h2 class="fragment">OpenSSH Client</h2>
+            <h2 class="fragment">File explorer</h2>
           </section>
           <section>
-            <h2>OpenSSH Client</h2>
+            <h1 class="">Dev Drive 💾</h1>
+            <h2 class="fragment">Resilient File System (<span class="windows">ReFS</span>)</h2>
+            <h2 class="fragment">Resiliency, <span class="windows">performance</span>, and scalability</h2>
+            <h2 class="fragment"><span class="windows">23,5%</span> - <span class="success">40% +</span> faster</h2>
+            <h2 class="fragment">Defender <span class="windows">performance</span> 🛡️</h2>
           </section>
           <section>
             <h2>Edit</h2>
@@ -164,25 +162,67 @@
         <section>
           <section>
             <h2>Powertoys</h2>
-            <h2>Colorpicker</h2>
-            <h2>Command pallet</h2>
-            <h2>File locksmith</h2>
-            <h2>Mouse Without Borders</h2>
-            <h2>Peek</h2>
-            <h2>Screen ruler</h2>
-            <h2>Workspaces</h2>
+            <h2 class="fragment">Colorpicker</h2>
+            <h2 class="fragment">Command pallet</h2>
+            <h2 class="fragment">File locksmith</h2>
+            <h2 class="fragment">Mouse Without Borders</h2>
+            <h2 class="fragment">Peek</h2>
+            <h2 class="fragment">Screen ruler</h2>
+            <h2 class="fragment">Workspaces</h2>
           </section>
         </section>
         <section>
-          <h1>Other cool features</h1>
-          <!-- TODO fill -->
+          <section>
+            <h1>Other cool features</h1>
+          </section>
+          <section>
+            <h2>Snippet</h2>
+          </section>
+          <section>
+            <h2>Advanced clipboard</h2>
+          </section>
+          <section>
+            <h2>Meta quest 3</h2>
+          </section>
+          <section>
+            <h2>Phone Link</h2>
+          </section>
+          <section>
+            <h2>Precision touchpad</h2>
+          </section>
+          <section>
+            <h2>Notepad upgrade</h2>
+          </section>
+          <section>
+            <h2>Task manager upgrade</h2>
+          </section>
+          <section>
+            <h2>Windows Hello</h2>
+            <h2>Passkeys</h2>
+          </section>
+          <section>
+            <h2>Virtual Desktops</h2>
+          </section>
+          <section>
+            <h2>Windows explorer tabs</h2>
+          </section>
+          <section>
+            <h2>DevDrive with ReFS</h2>
+          </section>
         </section>
         <section>
-          <h1>When windows breaks</h1>
-          <!-- TODO fill -->
+          <section>
+            <h1>When windows breaks</h1>
+            <h2 class="fragment">sfc /scannow</h2>
+            <h2 class="fragment">dism /online /cleanup-image /scanhealth</h2>
+            <h2 class="fragment">dism /online /cleanup-image /restorehealth</h2>
+            <h2 class="fragment">Reinstall just Windows</h2>
+          </section>
         </section>
         <section>
-          <h1>Summary and future</h1>
+          <section>
+            <h1>Summary and future</h1>
+          </section>
           <!-- TODO fill -->
         </section>
       </div>
